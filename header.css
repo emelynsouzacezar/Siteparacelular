@@ -26,20 +26,24 @@ align-items: center;
     top:100%;
     width: 60vw;
 }
-.container__botao:checked .lista-menu{
+.container__botao:checked ~ .lista-menu{
     display: block;
 }
 .lista-menu__titulo{
-    color: var(--laranja);
+    color: var(--rosa);
+    font-weight: 700;
 }
 .lista-menu__item{
     padding:1em;
     background-color: var(--branco)
 }
 .lista-menu__link{
-    background: var(--azul-degrade);
+    background: var(--rosa);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color:black;
     background-clip: text;
     text-transform: uppercase;
+}
+.container__botao{
+    display: none;
 }
