@@ -25,7 +25,7 @@ align-items: center;
     top:100%;
     width: 60vw;
 }
-.container__botao:checked ~ .lista-menu{
+.container__botao:checked~.lista-menu{
     display: block;
 }
 .lista-menu__titulo{
